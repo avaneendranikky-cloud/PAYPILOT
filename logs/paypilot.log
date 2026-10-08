@@ -1,0 +1,301 @@
+2026-10-08 09:28:17.609 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PayPilot payment tracking backend
+2026-10-08 09:28:18.443 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 09:28:18.482 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 1492 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 09:28:18.491 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 09:28:18.493 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 09:28:20.081 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 09:28:20.154 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-10-08 09:28:20.605 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 09:28:20.631 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:28:20.653 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 09:28:20.668 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 09:28:20.864 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 09:28:20.885 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2322 ms
+2026-10-08 09:28:33.724 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PayPilot payment tracking backend
+2026-10-08 09:28:34.940 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 09:28:34.968 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 8344 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 09:28:35.027 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 09:28:35.039 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 09:28:37.074 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 09:28:37.218 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.
+2026-10-08 09:28:38.219 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 09:28:38.263 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:28:38.294 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 09:28:38.320 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 09:28:38.470 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 09:28:38.499 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3341 ms
+2026-10-08 09:28:39.108 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-08 09:28:39.234 INFO  [main] o.h.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-10-08 09:28:39.348 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-08 09:28:39.816 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 09:28:39.921 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 09:28:41.122 INFO  [main] c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4ab455e2
+2026-10-08 09:28:41.154 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 09:28:41.898 INFO  [main] o.h.o.c.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 09:28:43.349 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-08 09:28:49.586 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08 09:28:50.653 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-08 09:28:53.268 INFO  [main] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:28:53.326 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-08 09:28:53.391 INFO  [main] c.p.p.PaymentsTrackingApplication - Started PaymentsTrackingApplication in 19.551 seconds (process running for 20.683)
+2026-10-08 09:29:36.246 DEBUG [main] c.p.p.s.PaymentTrackingService - Loading payment history for category=Utilities range=2026-10-01..2026-10-31
+2026-10-08 09:29:36.263 INFO  [main] c.p.p.s.PaymentTrackingService - Payment history returned 1 completed record(s)
+2026-10-08 09:29:36.305 DEBUG [main] c.p.p.s.PaymentTrackingService - Loading payment progress for category=null range=2026-10-01..2026-10-31
+2026-10-08 09:29:36.307 INFO  [main] c.p.p.s.PaymentTrackingService - Payment progress returned 1 record(s)
+2026-10-08 09:29:36.314 DEBUG [main] c.p.p.s.PaymentTrackingService - Loading payment overview for category=Utilities range=2026-10-01..2026-10-31
+2026-10-08 09:29:36.315 INFO  [main] c.p.p.s.PaymentTrackingService - Payment overview returned 1 record(s)
+2026-10-08 09:29:36.319 DEBUG [main] c.p.p.s.PaymentTrackingService - Loading payment progress for category=null range=2026-10-01..2026-10-31
+2026-10-08 09:29:36.320 INFO  [main] c.p.p.s.PaymentTrackingService - Payment progress returned 5 record(s)
+2026-10-08 09:41:28.183 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 09:41:28.205 INFO  [main] c.p.p.PaymentsTrackingApplication - ^_^ Starting PayPilot payment tracking backend ^_^
+2026-10-08 09:41:28.206 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 09:41:29.742 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 09:41:29.802 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 11388 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 09:41:29.808 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 09:41:29.818 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 09:41:31.915 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 09:41:32.054 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interface.
+2026-10-08 09:41:33.376 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 09:41:33.443 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:41:33.449 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 09:41:33.450 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 09:41:33.816 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 09:41:33.818 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3838 ms
+2026-10-08 09:41:34.454 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-08 09:41:34.577 INFO  [main] o.h.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-10-08 09:41:34.668 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-08 09:41:35.113 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 09:41:35.216 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 09:41:35.842 INFO  [main] c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@70d687b8
+2026-10-08 09:41:35.844 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 09:41:36.704 INFO  [main] o.h.o.c.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 09:41:38.274 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-08 09:41:39.567 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08 09:41:39.950 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-08 09:41:42.223 INFO  [main] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:41:42.289 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-08 09:41:42.355 INFO  [main] c.p.p.PaymentsTrackingApplication - Started PaymentsTrackingApplication in 13.86 seconds (process running for 15.299)
+2026-10-08 09:44:28.316 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 09:44:28.467 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 5804 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 09:44:28.497 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 09:44:28.503 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 09:44:30.176 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 09:44:30.310 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2026-10-08 09:44:31.290 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 09:44:31.336 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:44:31.370 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 09:44:31.402 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 09:44:31.534 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 09:44:31.571 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2933 ms
+2026-10-08 09:44:32.542 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-08 09:44:32.682 INFO  [main] o.h.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-10-08 09:44:32.779 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-08 09:44:33.396 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 09:44:33.484 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 09:44:34.021 INFO  [main] c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@c754401
+2026-10-08 09:44:34.049 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 09:44:34.567 INFO  [main] o.h.o.c.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 09:44:36.440 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-08 09:44:37.168 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08 09:44:37.560 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-08 09:44:39.644 INFO  [main] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:44:39.711 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-08 09:44:39.804 INFO  [main] c.p.p.PaymentsTrackingApplication - Started PaymentsTrackingApplication in 12.224 seconds (process running for 13.389)
+2026-10-08 09:44:39.863 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 09:44:39.916 INFO  [main] c.p.p.PaymentsTrackingApplication - ^_^ Starting PayPilot payment tracking backend ^_^
+2026-10-08 09:44:39.940 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 09:46:17.726 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 09:46:17.954 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 10716 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 09:46:17.960 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 09:46:17.963 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 09:46:19.717 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 09:46:19.842 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2026-10-08 09:46:20.769 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 09:46:20.794 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:46:20.798 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 09:46:20.799 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 09:46:20.939 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 09:46:20.975 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2811 ms
+2026-10-08 09:46:21.548 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-08 09:46:21.661 INFO  [main] o.h.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-10-08 09:46:21.763 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-08 09:46:22.173 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 09:46:22.252 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 09:46:22.775 INFO  [main] c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1d585fb
+2026-10-08 09:46:22.818 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 09:46:23.480 INFO  [main] o.h.o.c.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 09:46:25.195 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-08 09:46:26.136 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08 09:46:26.610 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-08 09:46:28.902 INFO  [main] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:46:28.945 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-08 09:46:28.968 INFO  [main] c.p.p.PaymentsTrackingApplication - Started PaymentsTrackingApplication in 11.956 seconds (process running for 13.209)
+2026-10-08 09:46:28.976 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 09:46:28.978 INFO  [main] c.p.p.PaymentsTrackingApplication - ^_^ Starting PayPilot payment tracking backend ^_^
+2026-10-08 09:46:28.981 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 09:52:58.434 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 09:52:58.499 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 12972 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 09:52:58.506 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 09:52:58.548 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 09:53:00.193 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 09:53:00.332 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2026-10-08 09:53:01.409 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 09:53:01.477 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:53:01.481 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 09:53:01.482 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 09:53:01.637 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 09:53:01.675 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2951 ms
+2026-10-08 09:53:02.224 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-08 09:53:02.357 INFO  [main] o.h.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-10-08 09:53:02.442 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-08 09:53:02.864 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 09:53:02.960 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 09:53:03.548 INFO  [main] c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2b99c937
+2026-10-08 09:53:03.574 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 09:53:04.223 INFO  [main] o.h.o.c.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 09:54:57.270 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 09:54:57.503 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 5172 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 09:54:57.514 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 09:54:57.578 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 09:54:59.169 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 09:54:59.290 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+2026-10-08 09:55:00.229 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 09:55:00.262 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:55:00.266 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 09:55:00.267 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 09:55:00.409 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 09:55:00.447 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2725 ms
+2026-10-08 09:55:01.202 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-08 09:55:01.342 INFO  [main] o.h.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-10-08 09:55:01.449 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-08 09:55:01.900 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 09:55:01.999 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 09:55:02.550 INFO  [main] c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1d585fb
+2026-10-08 09:55:02.552 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 09:55:03.175 INFO  [main] o.h.o.c.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 09:55:04.773 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-08 09:55:05.480 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08 09:55:05.854 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-08 09:55:08.006 INFO  [main] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:55:08.066 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-08 09:55:08.162 INFO  [main] c.p.p.PaymentsTrackingApplication - Started PaymentsTrackingApplication in 11.535 seconds (process running for 12.649)
+2026-10-08 09:55:08.204 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 09:55:08.254 INFO  [main] c.p.p.PaymentsTrackingApplication - ^_^ Starting PayPilot payment tracking backend ^_^
+2026-10-08 09:55:08.291 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 09:59:23.087 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 09:59:23.075 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 15176 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 09:59:23.128 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 09:59:23.139 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 09:59:24.952 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 09:59:25.079 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interface.
+2026-10-08 09:59:26.079 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 09:59:26.131 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 09:59:26.138 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 09:59:26.138 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 09:59:26.285 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 09:59:26.319 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2954 ms
+2026-10-08 09:59:26.887 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-08 09:59:27.023 INFO  [main] o.h.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-10-08 09:59:27.220 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-08 09:59:27.662 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 09:59:27.769 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 09:59:28.431 INFO  [main] c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@34e25492
+2026-10-08 09:59:28.471 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 09:59:29.124 INFO  [main] o.h.o.c.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 10:00:01.843 INFO  [background-preinit] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-10-08 10:00:02.126 INFO  [main] c.p.p.PaymentsTrackingApplication - Starting PaymentsTrackingApplication using Java 17.0.12 with PID 14676 (C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend\target\classes started by azureuser in C:\Users\azureuser\Documents\Codex\2026-10-06\hl\outputs\PayPilot-UserCase4-Backend)
+2026-10-08 10:00:02.150 DEBUG [main] c.p.p.PaymentsTrackingApplication - Running with Spring Boot v3.5.16, Spring v6.2.19
+2026-10-08 10:00:02.154 INFO  [main] c.p.p.PaymentsTrackingApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-08 10:00:03.784 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 10:00:03.910 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2026-10-08 10:00:04.896 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-08 10:00:04.924 INFO  [main] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-08 10:00:04.928 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2026-10-08 10:00:04.932 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-10-08 10:00:05.078 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2026-10-08 10:00:05.114 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2837 ms
+2026-10-08 10:00:05.711 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-08 10:00:05.859 INFO  [main] o.h.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-10-08 10:00:05.963 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-08 10:00:06.427 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 10:00:06.518 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 10:00:07.125 INFO  [main] c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4fee14b
+2026-10-08 10:00:07.127 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 10:00:07.733 INFO  [main] o.h.o.c.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 10:00:09.210 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-08 10:00:09.922 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08 10:00:10.319 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-08 10:00:12.554 INFO  [main] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-08 10:00:12.620 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-08 10:00:12.690 INFO  [main] c.p.p.PaymentsTrackingApplication - Started PaymentsTrackingApplication in 11.466 seconds (process running for 12.778)
+2026-10-08 10:00:12.745 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 10:00:12.800 INFO  [main] c.p.p.PaymentsTrackingApplication - ^_^ Starting PayPilot payment tracking backend ^_^
+2026-10-08 10:00:12.845 INFO  [main] c.p.p.PaymentsTrackingApplication - ==================================================
+2026-10-08 10:03:34.218 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-08 10:03:34.219 INFO  [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-08 10:03:34.224 INFO  [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+2026-10-08 10:03:34.587 INFO  [http-nio-8080-exec-1] c.p.p.c.PaymentTrackingController - GET payment progress request received
+2026-10-08 10:03:34.644 DEBUG [http-nio-8080-exec-1] c.p.p.s.PaymentTrackingService - Loading payment progress for category=null range=2026-10-01..2026-10-31
+2026-10-08 10:03:35.179 INFO  [http-nio-8080-exec-1] c.p.p.s.PaymentTrackingService - Payment progress returned 0 record(s)
+2026-10-08 10:04:10.749 INFO  [http-nio-8080-exec-2] c.p.p.c.PaymentTrackingController - GET payment overview request received
+2026-10-08 10:04:10.750 DEBUG [http-nio-8080-exec-2] c.p.p.s.PaymentTrackingService - Loading payment overview for category=null range=2026-10-01..2026-10-31
+2026-10-08 10:04:10.774 INFO  [http-nio-8080-exec-2] c.p.p.s.PaymentTrackingService - Payment overview returned 0 record(s)
+2026-10-08 10:04:27.429 INFO  [http-nio-8080-exec-3] c.p.p.c.PaymentTrackingController - GET payment history request received
+2026-10-08 10:04:27.433 DEBUG [http-nio-8080-exec-3] c.p.p.s.PaymentTrackingService - Loading payment history for category=null range=2026-10-01..2026-10-31
+2026-10-08 10:04:27.439 INFO  [http-nio-8080-exec-3] c.p.p.s.PaymentTrackingService - Payment history returned 0 completed record(s)
