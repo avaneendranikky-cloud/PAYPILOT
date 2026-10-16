@@ -115,12 +115,13 @@ public class UserController {
 
         try {
 
-            userService.login(request);
-
+            com.paypilot.entity.User user = userService.login(request);
 
             return ResponseEntity.ok(
-                    new AuthResponse(
-                            "Login successful"
+                    new LoginResponse(
+                            "Login successful",
+                            user.getUserId(),
+                            user.getId()
                     )
             );
 
